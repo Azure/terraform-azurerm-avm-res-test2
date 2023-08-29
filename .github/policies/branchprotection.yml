@@ -10,3 +10,4 @@ configuration:
     isAdminEnforced: true
     allowsForcePushes: false
     allowsDeletions: false
+    requiresLinearHistory: true
