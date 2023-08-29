@@ -1,0 +1,11 @@
+name: avm_required
+description: AVM minimum required branch protection policy
+resource: repository
+where: 
+configuration:
+  branchProtectionRules:
+  - branchNamePattern: "~default~"
+    requiredApprovingReviewsCount: 0
+    isAdminEnforced: true
+    allowsForcePushes: false
+    allowsDeletions: false
